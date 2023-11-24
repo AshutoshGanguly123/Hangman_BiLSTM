@@ -1,4 +1,3 @@
-
 **Hangman_BiLSTM**
 Overview
 Hangman_BiLSTM is an advanced implementation of the classic word-guessing game, Hangman, utilizing a Bidirectional Long Short-Term Memory (BiLSTM) model. In this game, one player thinks of a word, and the other player has a limited number of attempts (lives) to guess the word by suggesting letters.
