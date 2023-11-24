@@ -1,0 +1,25 @@
+
+agent lives: 6 
+ 
+ Episode 1000 -------- Average Correct Count : 6.217     Last 1000 winrate : 0.404 
+ 
+agent lives: 6 
+ 
+ Episode 2000 -------- Average Correct Count : 6.081     Last 1000 winrate : 0.378 
+ 
+agent lives: 6 
+ 
+ Episode 3000 -------- Average Correct Count : 6.191     Last 1000 winrate : 0.395 
+ 
+agent lives: 6 
+ 
+ Episode 4000 -------- Average Correct Count : 6.091     Last 1000 winrate : 0.378 
+ 
+agent lives: 6 
+ 
+ Episode 5000 -------- Average Correct Count : 6.236     Last 1000 winrate : 0.409 
+ 
+agent lives: 6 
+ 
+ Episode 6000 -------- Average Correct Count : 6.154     Last 1000 winrate : 0.388 
+ 
