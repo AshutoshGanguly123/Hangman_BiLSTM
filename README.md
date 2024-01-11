@@ -1,14 +1,21 @@
 **Hangman_BiLSTM**
-Overview
-Hangman_BiLSTM is an advanced implementation of the classic word-guessing game, Hangman, utilizing a Bidirectional Long Short-Term Memory (BiLSTM) model. In this game, one player thinks of a word, and the other player has a limited number of attempts (lives) to guess the word by suggesting letters.
 
-Gameplay
-The gameplay of Hangman_BiLSTM follows the traditional Hangman rules with a slight twist. The player is given a fixed number of lives (default n=6) to guess a hidden word by suggesting letters. For each incorrect guess, a life is lost. The game ends when the player either guesses the word correctly or runs out of lives.
+Player A guesses an n-letter word and tells player B about the number of alphabets the word has. PLayer B has to guess it in k guesses. 
+Each time player B guesses a correct alphabet all the places where that alphabet occurs are revealed, else if the guess is wrong a life is subtracted.
 
-Example Gameplay
-The hidden word is chosen, and its length is revealed to the player.
-The player guesses a letter.
-If the letter is in the word, it is revealed in its correct position(s).
-If the letter is not in the word, the player loses a life.
-Steps 2-4 are repeated until the player either guesses the word correctly or loses all lives.
+example gameplay:
+player A: 7 Leter word (word - running)
+player B: guess: A  word: _ _ _ _ _ _ _  lives = 5
+player B: guess: B  word: _ _ _ _ _ _ _  lives = 4
+player B: guess: N  word: _ _ n n _ n _  lives = 4
+player B: guess: R  word: r _ n n _ n _  lives = 4
+
+Implementation:
+The code: 
+takes takes a 27x1 vector which represents the word to be guessed and passes it through a word embedding to prokect it to a higher dimensional plane
+takes the guessed alphabet 
+
+
+
+
 
